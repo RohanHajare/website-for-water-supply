@@ -1,0 +1,81 @@
+body {
+    /* background-color: #344a72; */
+    background: url("images/background_image.jpg");
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 570px;
+    height: 610px;
+    margin: auto;
+    background-color: #bee2f9;
+    border-radius: 3px;
+    border: solid black 2px;
+    /* background: url("images/background_image.jpg"); */
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    /* padding-top: 15px; */
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 168%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+  }
+  input[type="submit"] {
+    width: 173%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(146, 249, 249);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    /* padding-top: 20px; */
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 100;
+    /* margin-top: -10px; */
+  }
+  .para-2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .para-2 a:hover{
+    color: rgb(146, 249, 249);
+  }
